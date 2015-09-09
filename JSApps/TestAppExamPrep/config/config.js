@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'crowd-share'
     },
-    port: 3000,
+    port: 3100,
     db: 'mongodb://localhost/crowd-share-development'
   },
 
@@ -17,7 +17,7 @@ var config = {
     app: {
       name: 'crowd-share'
     },
-    port: 3000,
+    port: 3100,
     db: 'mongodb://localhost/crowd-share-test'
   },
 
@@ -26,7 +26,7 @@ var config = {
     app: {
       name: 'crowd-share'
     },
-    port: 3000,
+    port: 3100,
     db: 'mongodb://localhost/crowd-share-production'
   }
 };
