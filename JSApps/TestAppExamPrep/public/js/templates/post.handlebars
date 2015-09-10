@@ -1,0 +1,37 @@
+
+<div class="form-group">
+    <div class="row">
+        <label for="dd-page-size">Pls choose how many post you want on a page</label>
+        <select class="form-control" id="dd-page-size">
+            <option>2</option>
+            <option>4</option>
+            <option>8</option>
+            <option>10</option>
+        </select>
+
+        <button id="btn-search-posts" >Filter</button>
+    </div>
+
+
+</div>
+
+
+<div>
+    <ul class="pagination2" id="ul-posts">
+        {{#this}}
+                <li class="">
+                    {{id}} - {{title}}: " {{body}} "  by {{user.username}}
+                </li>
+        {{/this}}
+    </ul>
+</div>
+
+<br/>
+<br/>
+
+<div>
+    <input placeholder="title" id="tb-title"/>
+    <input placeholder="body" id="tb-body"/>
+
+    <button id="btn-submit-post" class="btn btn-success">Submit post</button>
+</div>
